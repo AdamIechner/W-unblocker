@@ -1,0 +1,19 @@
+{
+  "name": "web-unblocker",
+  "version": "1.0.0",
+  "description": "Web proxy for accessing content",
+  "main": "api/proxy.js",
+  "scripts": {
+    "start": "node api/proxy.js",
+    "dev": "nodemon api/proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
